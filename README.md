@@ -16,8 +16,19 @@ Topics covered include:
 
 ## Contents
 
-- `Lab1/` – Introduction to ML workflows and data preprocessing  
-- `Lab2/` – Supervised classification models and performance evaluation  
+- Lab1 – Implemented preprocessing (deduplication, stop-word removal) and BoW feature extraction for spam detection
+
+Trained/evaluated Logistic Regression baseline; compared train vs test to check generalization
+
+Reported accuracy, precision, recall, and confusion matrix
+
+- Lab2 - CAPTCHA dataset preprocessing and labeling from filenames
+
+Character segmentation via contours; split wide boxes when width/height > 1.25
+
+CNN architecture: 2 conv blocks + pooling + dense layers; trained with Adam + cross-entropy
+
+End-to-end evaluation of recognized 4-character strings; tracked extraction failures
 
 ## Technologies Used
 
